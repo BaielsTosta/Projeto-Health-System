@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health System | Taxa Metabólica Basal</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pngwing.com.png">
+</head>
+
+<body>
+    <header>
+        <li>
+            <ul><a href="Index.html">Home</a></ul>
+            <ul><a href="IMC.html">IMC</a></ul>
+            <ul><a href="Taxa Metabólica Basal.html">Taxa Metabólica Basal</a></ul>
+            <ul><a href="Taxa de Gordura Corporal.html">Taxa de Gordura Corporal</a></ul>
+            <ul><a href="Peso Ideal.html">Peso Ideal</a></ul>
+            <ul><a href="Índice de Adiposidade Corporal.html">Índice de Adiposidade Corporal</a></ul>
+            <ul><a href="Índice de Cintura-Quadril.html">Índice de Cintura-Quadril</a></ul>
+        </li>
+    </header>
+            <section>
+                <img src="assets/images/Nike Logo.png" alt="">
+                <h1>Cálculo de Taxa Metabólica Basal</h1>
+                <label for="">Qual o seu Sexo?</label>
+                <select name="Sexo" id="sexo">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                </select>
+                <label for="Massa">Digite a sua Massa em Quilogramas</label>
+                <input type="number" name="Massa" id="Massa">
+                
+                <label for="Altura">Digite a sua Altura em Centímetros</label>
+                <input type="number" name="Altura" id="Altura">
+                
+                <label for="Idade">Digite a sua Idade em Anos</label>
+                <input type="number" name="Idade" id="Idade">
+                
+                <input type="button" value="Enviar" onclick="calculoTMB()">
+                <p id="TMB">A sua Taxa Metabólica Basal vale: </p>
+    </section>
+    <footer>
+        <p>
+            ©Criado por Heart Synapses - Todos os Direitos Reservados
+        </p>
+    </footer>
+</body>
+
+</html>
